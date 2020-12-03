@@ -1,0 +1,38 @@
+.comaroundContainer {
+  padding: 0.6rem 1rem;
+  background-color: rgb(231, 231, 231);
+  animation-name: opacityAnimation;
+  animation-duration: 1s;
+  height: 100%;
+}
+
+.alert-heading {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.h-25-p {
+  height: 14vh !important;
+}
+
+.h-30-survey {
+  height: 35vh;
+}
+
+@keyframes opacityAnimation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .comaroundContainer {
+    padding: 0rem;
+  }
+}

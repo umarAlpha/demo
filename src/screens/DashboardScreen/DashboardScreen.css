@@ -1,0 +1,65 @@
+.dashboard {
+  padding: 1.8rem 1rem;
+  background-color: rgb(231, 231, 231);
+  height: 100%;
+}
+
+.no-gutters {
+  /* margin-right: 0;
+  margin-left: 0; */
+}
+
+/* .no-gutters > .col,
+.no-gutters > [class*='col-'] {
+  margin-bottom: 1.5rem;
+  padding-left: 0;
+} */
+
+.no-gutters > .col:not(:last-child),
+.no-gutters > [class*='col-']:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.statusStyle {
+  font-size: 13px !important;
+  padding: 0.3rem 0.3rem !important;
+  width: 70px !important;
+}
+
+@media screen and (max-width: 991px) {
+  .no-gutters > .col,
+  .no-gutters > [class*='col-'] {
+    margin-bottom: 2rem;
+  }
+
+  .no-gutters-two {
+    margin-top: 2rem;
+  }
+}
+
+.h-10 {
+  height: 10vh;
+}
+
+.h-20 {
+  height: 20vh;
+}
+
+/* .h-22 {
+  height: 50%;
+} */
+
+.h-30 {
+  height: 30vh;
+}
+
+.h-40 {
+  height: 40vh;
+}
+
+
+@media screen and (max-width:768px) {
+  .left-boxes{
+    overflow-y: auto;
+  }
+}

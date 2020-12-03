@@ -1,0 +1,18 @@
+.login__input {
+  color: #000 !important;
+  height: 3.7rem !important;
+  padding: 0 !important;
+  font-size: 1rem !important;
+  border: none !important;
+  background-color: var(--white) !important;
+  /* border-bottom: 1px solid #000 !important; */
+  border-radius: 0rem !important;
+}
+
+.login__input:focus,
+.login__input:active {
+  background-color: var(--white) !important;
+  outline: none !important;
+  /* border-bottom: 1px solid #000 !important; */
+  box-shadow: none !important;
+}

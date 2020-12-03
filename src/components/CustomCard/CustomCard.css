@@ -1,0 +1,77 @@
+.cscard {
+  background-color: #ffffff !important;
+  position: relative;
+  /* height: 20vh; */
+  padding: 0.9rem 1rem !important;
+  border-radius: 12px !important;
+  -webkit-box-shadow: 0px 2px 24px rgba(17, 17, 17, 0.15);
+  -moz-box-shadow: 0px 2px 24px rgba(17, 17, 17, 0.15);
+  box-shadow: 0px 2px 24px rgba(17, 17, 17, 0.15);
+}
+
+.cscard__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+  color: #16344e;
+  font-size: 1.1rem !important;
+  /* font-weight: 500 !important; */
+  font-weight: 700 !important;
+  padding: 0 0.1rem;
+}
+
+.cscard__btn {
+  font-size: 1rem;
+  width: 4rem;
+  border: none;
+  background-color: #ffffff;
+  text-transform: capitalize;
+}
+
+.cscard__btn:hover,
+.cscard__btn:active {
+  text-decoration: underline;
+  text-decoration-color: #126eb7;
+}
+
+.dropdown-filter {
+  width: 9rem;
+  background-color: #fff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16) !important;
+}
+
+.dropdown-filter > button {
+  color: var(--primary) !important;
+}
+
+.dropdown-filter > button > span {
+  width: 90%;
+}
+
+.font14 {
+  font-size: 1rem !important;
+}
+
+.dropdown-filter > button::after {
+  color: #000;
+}
+
+.pagination-container {
+  /* position: absolute;
+  right: 5px;
+  bottom: 0; */
+}
+
+/* 
+.customBtn {
+  background: none !important;
+  border: none !important;
+  color: #126eb7 !important;
+}
+
+.customBtn:hover,
+.customBtn:active {
+  border: none !important;
+  outline: none !important;
+} */

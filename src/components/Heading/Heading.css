@@ -1,0 +1,32 @@
+.heading {
+}
+
+.heading__one {
+  color: #16344e;
+  text-transform: uppercase;
+  font-size: 1.6rem !important;
+  font-weight: 600;
+}
+
+.heading__two {
+  color: #16344e;
+  text-transform: uppercase;
+  word-spacing: 3px !important;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 767px) {
+  .heading {
+    margin-bottom: 2.3rem;
+  }
+
+  .heading__one {
+    font-size: 1.3rem !important;
+    color: #fff;
+  }
+
+  .heading__two {
+    font-size: 1.6rem !important;
+    color: #fff;
+  }
+}

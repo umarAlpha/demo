@@ -1,0 +1,21 @@
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: var(--secondary);
+  color: #fff;
+  padding: 7px 15px;
+  border: none;
+  display: none;
+  height: inherit;
+}
+
+.openbtn:active,
+.openbtn:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 1250px) {
+  .openbtn {
+    display: inline-block;
+  }
+}

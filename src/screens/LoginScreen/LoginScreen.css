@@ -1,0 +1,115 @@
+.login {
+  position: relative;
+  /* z-index: -1; */
+  min-width: 100vw;
+  min-height: 100vh;
+  /* background-clip: border-box; */
+  background-image: url('../../assets/images/mac-login5.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* filter: blur(1px); */
+  color: var(--white);
+}
+
+.login::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgb(11, 52, 86, 0.3);
+}
+
+.font-13 {
+  font-size: 0.9rem;
+}
+
+.login__form {
+  position: absolute;
+  top: 50%;
+  right: 7%;
+  transform: translateY(-50%);
+  z-index: 9999;
+  /* transform: translate(-50%, -50%); */
+  max-width: 35rem;
+  min-height: 40rem;
+  background-color: var(--white);
+  border-radius: 1.2rem;
+  color: var(--secondary);
+  padding: 2rem 2rem;
+  box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.16);
+}
+
+.login__form__text {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-bottom: 2rem;
+}
+
+.login__form__text2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 2.53rem;
+}
+
+.form__btn {
+  width: 10rem;
+  font-size: 1rem !important;
+  border-radius: 20px !important;
+  padding: 0.4rem 1.4rem !important;
+  background-color: #116eb7 !important;
+  box-shadow: 0px 1px 3px rgba(17, 17, 17, 0.07) !important;
+}
+
+.form__btn:hover {
+  cursor: pointer !important;
+}
+
+.login__btn {
+  font-size: 0.9rem !important;
+  background-color: var(--primary) !important;
+  display: inline-block !important;
+  width: 17rem;
+  padding: 0.4rem 1.5rem !important;
+  border-radius: 1.4rem !important;
+  cursor: pointer !important;
+}
+
+.login__btn:focus,
+.login__btn:active {
+  box-shadow: none !important;
+}
+
+.login__logo {
+  width: 12rem;
+}
+
+.saml-logo {
+  width: 2.2rem;
+}
+
+/* .spacer {
+  margin-bottom: 1.5rem !important;
+} */
+
+.bor-bottom {
+  border-bottom: 1px solid #000;
+}
+
+.text-right {
+  text-align: right !important;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.error-message {
+  margin: 8px 0px 0px 0px;
+}
+
+@media screen and (max-width: 575.98px) {
+  .login__form {
+    /* height: 100%;
+    position: sticky; */
+  }
+}

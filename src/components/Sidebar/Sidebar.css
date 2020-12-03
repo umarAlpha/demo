@@ -1,0 +1,52 @@
+.sidebar {
+  /* height: auto;
+  flex: 0 0 21em;
+  max-width: 21rem; */
+  /* display: inline; */
+  height: 100%;
+  /* min-width: 19rem; */
+  flex: 0 0 18%;
+  /* overflow-x: hidden; */
+  transition: 0.2s;
+  background-color: var(--primary);
+  padding: 2rem 1.2rem;
+}
+
+.is-open {
+  margin-left: 0;
+}
+
+.csnav {
+  list-style: none;
+}
+
+@media screen and (max-width: 1250px) {
+  .sidebar {
+    /* position: absolute; */
+    /* margin-left: -19.5rem; */
+    display: none;
+    -webkit-transition: margin 0.25s ease-out;
+    -moz-transition: margin 0.25s ease-out;
+    -o-transition: margin 0.25s ease-out;
+    transition: margin 0.25s ease-out;
+    /* animation-name: animation; */
+    /* -moz-animation-duration: 2s; */
+    /* animation-duration: 2s; */
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -21rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sidebar {
+    /* margin-left: -19.5rem; */
+  }
+}
+
+@media (max-width: 575.98px) {
+  .sidebar {
+    /* margin-left: -22.2rem; */
+  }
+}

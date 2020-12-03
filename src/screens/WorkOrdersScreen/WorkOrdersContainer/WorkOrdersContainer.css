@@ -1,0 +1,23 @@
+.bs {
+  border-bottom: 1px solid #000 !important;
+}
+
+.ticket-item {
+  flex: 0 0 15%;
+}
+
+.ticket-item1 {
+  flex: 0 1 35%;
+}
+
+.ticket-item4 {
+  flex: 0 1 23%;
+}
+
+.ticket-item5 {
+  flex: 0 1 15%;
+}
+
+.status-style {
+  flex: 0 1 12%;
+}

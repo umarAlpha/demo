@@ -1,0 +1,41 @@
+.alertContainer {
+  padding: 1.8rem 1rem;
+  background-color: rgb(231, 231, 231);
+  height: 100%;
+  /* animation-name: opacityAnimation;
+  animation-duration: 1s; */
+}
+
+.alert-heading {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.input {
+  border-radius: 20px !important;
+}
+
+.right-margin > .col:not(:last-child),
+.right-margin > [class*='col-']:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.h-25-p {
+  height: 14vh !important;
+}
+
+.h-30-survey {
+  height: 35vh;
+}
+
+/* @keyframes opacityAnimation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 100%;
+  }
+} */

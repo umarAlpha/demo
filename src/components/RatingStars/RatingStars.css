@@ -1,0 +1,7 @@
+.r-star {
+}
+
+.r-star:active,
+.r-star:focus {
+  outline: none;
+}

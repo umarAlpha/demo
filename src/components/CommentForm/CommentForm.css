@@ -1,0 +1,22 @@
+.send-btn {
+  background: none;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.send-btn:active,
+.send-btn:focus {
+  border: none;
+}
+
+.comment-input {
+  border-radius: 0.8rem !important;
+  background-color: rgb(17, 110, 183, 0.1) !important;
+  font-size: 0.8rem !important;
+  color: #000 !important;
+}
+
+.comment-input::placeholder {
+  color: #000;
+}

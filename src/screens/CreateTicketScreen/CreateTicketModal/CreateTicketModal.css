@@ -1,0 +1,69 @@
+.selectionmodal-body {
+  background-color: var(--primary);
+  position: relative !important;
+  /* padding-top: 2.7rem !important; */
+  /* overflow: hidden !important; */
+  color: white !important;
+}
+
+.selection-header {
+  background-color: var(--primary) !important;
+}
+
+.card-height {
+  height: 65vh;
+}
+
+.title {
+  /* padding: 0.7rem !important; */
+  font-weight: 700 !important;
+}
+
+.title--one {
+  padding: 0.2rem 0.4rem !important;
+}
+
+.w-80 {
+  width: 89%;
+}
+
+.card-animation {
+  animation-name: modalanimation;
+  animation-duration: 0.5s;
+}
+
+.card-animation-out {
+  animation-name: modalanimation2;
+  animation-duration: 7s;
+}
+
+.selection-input {
+  /* padding: 0rem !important; */
+  /* width: 50%; */
+}
+
+.bor-b {
+  border-bottom: 1px solid #ccc;
+}
+
+@keyframes modalanimation {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes modalanimation2 {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+}

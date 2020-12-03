@@ -1,0 +1,53 @@
+.csinput-container {
+  border-radius: 0.4rem;
+  -webkit-box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.16);
+  z-index: 7;
+}
+.csinput {
+  background-color: white;
+  /* border-radius: 1.2rem; */
+  padding: 0rem 0.7rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.16);
+}
+
+.dropdown-cs {
+  box-shadow: none !important;
+  border-right: 1px solid #ccc;
+  border-top-left-radius: 0.3rem !important;
+  border-bottom-left-radius: 0.3rem !important;
+  background-color: #fff;
+}
+
+.dropdown-cs > button {
+  color: var(--primary) !important;
+}
+
+.dropdown-cs > button::after {
+  display: none;
+}
+
+.csinput__item {
+  display: block;
+  border: none !important;
+  width: inherit;
+  background-color: white;
+  padding: 0.6rem 1rem;
+}
+
+.csinput__item::placeholder {
+  outline: none;
+}
+
+.csinput__item:focus,
+.csinput__item:active {
+  border: none !important;
+  outline: none;
+}

@@ -1,0 +1,19 @@
+.overflow {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-right: 10px;
+  height: 100%;
+  /* padding-left: 5px; */
+}
+
+.overflow::-webkit-scrollbar {
+  width: 6px; /* width of the entire scrollbar */
+}
+.overflow::-webkit-scrollbar-track {
+  background: whitesmoke; /* color of the tracking area */
+}
+.overflow::-webkit-scrollbar-thumb {
+  background-color: var(--primary); /* color of the scroll thumb */
+  border-radius: 15px; /* roundness of the scroll thumb */
+  /* border: 3px solid whitesmoke; creates padding around scroll thumb */
+}

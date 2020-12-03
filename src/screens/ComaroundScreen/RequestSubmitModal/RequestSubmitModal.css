@@ -1,0 +1,7 @@
+.request__input {
+}
+
+.request__input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}

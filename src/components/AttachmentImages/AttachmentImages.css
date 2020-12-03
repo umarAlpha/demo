@@ -1,0 +1,20 @@
+.attachment-images {
+  height: 6rem;
+  overflow-y: scroll;
+}
+
+.attachment-images1 {
+  height: 4rem;
+  overflow-y: scroll;
+}
+
+.attachment-images::-webkit-scrollbar {
+  display: none;
+}
+
+.delete-attachment {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}

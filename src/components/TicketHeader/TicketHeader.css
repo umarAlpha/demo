@@ -1,0 +1,65 @@
+.ticket-header {
+  font-size: 0.9rem;
+  padding: 0 0.8rem 0 0;
+}
+
+.ticket-header__item--id {
+  flex: 0 1 10%;
+}
+
+.ticket-header__item--id2 {
+  flex: 0 1 15%;
+}
+
+.ticket-header__item--details {
+  flex: 0 1 30%;
+}
+
+.ticket-header__item--status {
+  flex: 0 1 10%;
+}
+
+.ticket-header__item--name {
+  flex: 0 1 30%;
+  text-align: center;
+}
+
+.ticket-header__item--name2 {
+  flex: 0 1 15%;
+  text-align: center;
+}
+
+.ticket-header__item--date {
+  flex: 0 1 20%;
+  text-align: center;
+  padding-right: 0.5rem;
+}
+
+.ticket-header__item--type {
+  flex: 0 1 15%;
+  text-align: center;
+  /* padding-right: 0.5rem; */
+}
+
+.ticket-header__item--citype {
+  flex: 0 1 25%;
+}
+
+.ticket-header__item--assettype {
+  flex: 0 1 20%;
+}
+
+.ticket-header__item--user {
+  flex: 0 1 20%;
+}
+
+.ticket-header__item--location {
+  flex: 0 1 10%;
+}
+
+
+@media screen and (max-width: 767px) {
+  .ticket-header {
+    font-size: 0.7rem;
+  } 
+}

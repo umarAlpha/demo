@@ -1,0 +1,39 @@
+.profile__container {
+  padding: 1rem;
+}
+
+.profile__container h5 {
+  color: #0b3456;
+  margin-top: 0.3rem;
+  /* margin: 17px 0px; */
+}
+
+.profile__container span {
+  color: var(--primary);
+}
+
+.profile__card {
+  border-radius: 10px;
+  padding: 1rem 13rem;
+  background: #fbfbfb;
+  width: 100%;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: auto;
+}
+
+.userImage {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+  background-color: var(--secondary);
+  padding: 5px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+}
+
+.userImage img {
+  width: 100%;
+  border-radius: 50%;
+}

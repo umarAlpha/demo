@@ -1,0 +1,40 @@
+.succmodal {
+}
+
+.succmodal-pic {
+  position: absolute;
+  top: 0.8rem;
+  right: 0.5rem;
+  width: 7rem;
+  opacity: 0.14;
+  transform: rotate(-30deg);
+}
+
+.succmodal-body {
+  /* width: 40rem;
+  height: 23rem; */
+  position: relative;
+  color: #fff;
+  border-radius: 0.8rem;
+}
+
+.modal-icon {
+  display: inline-block;
+  background-color: var(--white);
+  border-radius: 4rem;
+  cursor: pointer;
+}
+
+.succ-anim {
+  animation-name: inout;
+  animation-duration: 2s;
+}
+
+@keyframes inout {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

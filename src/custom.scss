@@ -1,0 +1,88 @@
+// Bootstrap and its default variables
+$theme-colors: (
+  'primary': #116eb7,
+  'secondary': #16344e,
+  'pending-color': #850000,
+  'close-color': #8b8989,
+  'progress-color': #008080,
+  'white': #ffffff,
+  'new': #003f87,
+  'waiting': #16344e,
+  'open': #59cbcb,
+  'assigned': #803500,
+  'resloved': #2e8b57,
+  'text-color': #737373,
+  'color-reopened': #ee9a00,
+  'approving': #fdcb1f,
+);
+
+// 'pending-color': #fdcb1f,
+//   'close-color': #ea5455,
+//   'progress-color': #4f8a8b,
+//   'white': #ffffff,
+//   'new': #52de97,
+//   'waiting': #16344e,
+//   'open': #59cbcb,
+//   'assigned': #3282b8,
+//   'resloved': #f6a606,
+//   'text-color': #737373,
+//   'color-reopened': #fca652
+
+.font-italic{
+  font-style: italic;
+  font-size: .9rem;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.next-article__link{
+  text-decoration: underline !important;
+  font-size: 1rem !important;
+  color: var(--primary);
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ccc;
+}
+
+.btn-white {
+  background-color: #ffffff !important;
+}
+
+.bor-5 {
+  border-radius: 0.6rem !important;
+}
+
+.w-10 {
+  width: 10rem;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.h-48 {
+  height: 48%;
+}
+
+.height-14 {
+  height: 13.5rem;
+}
+
+.height-23 {
+  height: 370px;
+}
+
+.height-24 {
+  height: 24rem;
+}
+
+.height-25 {
+  height: 25rem;
+}
+
+.height-29 {
+  height: 29rem;
+}
+
+@import 'node_modules/bootstrap/scss/bootstrap';

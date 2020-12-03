@@ -1,0 +1,12 @@
+.confirmationmodal-body {
+  /* width: 40rem;
+    height: 23rem; */
+  position: relative;
+  color: var(--text-text-detail-color);
+  border-radius: 0.8rem;
+  /* background-color: var(--primary); */
+}
+
+.confirmationmodal__heading {
+  font-size: 1.2rem;
+}

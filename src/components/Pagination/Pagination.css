@@ -1,0 +1,30 @@
+.pagination-link {
+  padding: 8px 16px !important;
+}
+
+.pagination-border-radius {
+  border-radius: 5px !important;
+}
+
+.page-button > a:focus,
+.page-button > a:active {
+  /* outline: none !important; */
+  /* box-shadow: none !important; */
+  /* border: none !important; */
+  color: none !important;
+}
+
+.pagination-link:focus,
+.pagination-link:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+@media screen and (max-width: 767px) {
+  .pagination-link {
+    font-size: 0.7rem;
+  }
+  .page-button {
+      font-size: 0.7rem;
+  }
+}

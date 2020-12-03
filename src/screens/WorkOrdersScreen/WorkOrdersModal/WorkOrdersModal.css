@@ -1,0 +1,43 @@
+.ticketmodal-header {
+  padding: 0 0.4rem !important;
+  border-bottom: none !important;
+}
+
+.ticketmodel-title {
+  width: 10rem;
+  height: 3.5rem;
+  color: #fff;
+  padding-top: 0.8rem;
+  margin-left: 1rem;
+  font-weight: 700 !important;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 0px 0px 15px 15px;
+  background-color: #116eb7;
+  box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.16);
+}
+
+.styleList {
+  flex: 0 0 50%;
+}
+
+.ticket-btn-container {
+  margin-top: -1rem;
+}
+
+.ticketmodal-body {
+  padding: 0 1rem !important;
+}
+
+.ticket-btn {
+  font-weight: 700 !important;
+  border: 2px solid !important;
+}
+
+.c-container {
+  height: 45vh;
+}
+
+.content {
+  flex: 0 0 50%;
+}

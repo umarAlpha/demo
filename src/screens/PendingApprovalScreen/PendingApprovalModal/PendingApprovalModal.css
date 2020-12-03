@@ -1,0 +1,42 @@
+.penmodal-body {
+    position: relative;
+    padding: 0 1rem;
+    z-index: 1;
+}
+
+.penmodal-body::before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: 38%;
+    height: 14rem;
+    width: 14rem;
+    background-image: url('../../../assets/images/modalpic.png');
+    background-size: cover;
+    transform: rotate(-20deg);
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.pending-leftside {
+    flex: 0 0 50%;
+}
+
+.penflex {
+    flex: 0 0 50% !important;
+}
+
+.penmodal-btn {
+    font-size: 0.8rem !important;
+    padding: 0.3rem 0.6rem !important;
+    text-transform: uppercase;
+    border-radius: 6px !important;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.16) !important;
+}
+
+span.pending__link {
+    text-decoration: underline;
+    color: var(--primary);
+    cursor: pointer;
+    font-weight: bolder;
+}

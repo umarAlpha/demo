@@ -1,0 +1,23 @@
+.pen-ticket {
+  flex: 0 1 20%;
+}
+
+.pending-item {
+  flex: 0 0 13%;
+}
+
+.pending-item1 {
+  flex: 0 1 37%;
+}
+
+.pending-item4 {
+  flex: 0 1 25%;
+}
+
+.pending-item5 {
+  flex: 0 1 15%;
+}
+
+.status-style {
+  flex: 0 1 10%;
+}

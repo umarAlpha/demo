@@ -1,0 +1,36 @@
+/* ITEMS */
+.header__move--item {
+  display: inline-block; /* Lay items in a horizontal line */
+  padding: 0rem 0.3rem;
+  /* margin: 5px; */
+}
+
+.ticker__logo {
+  width: 1.2rem;
+}
+
+.header__move--item:hover {
+  cursor: pointer;
+}
+
+.header__move--link {
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+
+.header__move--link:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .ticker__logo {
+    width: 0.8rem;
+  }
+
+  .header__move--link {
+    font-size: 0.6rem;
+  }
+  
+}

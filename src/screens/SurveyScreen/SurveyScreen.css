@@ -1,0 +1,51 @@
+.surveyContainer {
+  padding: 1.8rem 1rem;
+  background-color: rgb(231, 231, 231);
+  animation-name: opacityAnimation;
+  animation-duration: 1s;
+}
+
+.survey-heading {
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.right-margin > .col:not(:last-child),
+.right-margin > [class*='col-']:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.over::-webkit-scrollbar {
+  width: 6px; /* width of the entire scrollbar */
+  padding-right: 10px;
+}
+.over::-webkit-scrollbar-track {
+  background: whitesmoke; /* color of the tracking area */
+}
+.over::-webkit-scrollbar-thumb {
+  background-color: var(--primary); /* color of the scroll thumb */
+  border-radius: 15px; /* roundness of the scroll thumb */
+  /* border: 3px solid whitesmoke; creates padding around scroll thumb */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+/* Hide scrollbar for IE, Edge and Firefox */
+
+/* 
+.h-30-survey {
+  height: 50vh;
+  overflow-y: auto;
+} */
+
+@keyframes opacityAnimation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 100%;
+  }
+}

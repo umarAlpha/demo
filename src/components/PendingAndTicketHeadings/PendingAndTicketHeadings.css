@@ -1,0 +1,26 @@
+.tp__heading {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+  font-weight: 500;
+}
+
+.tp__item--one {
+  flex: 0 0 11%;
+}
+
+.tp__item--two {
+  flex: 0 0 20%;
+}
+
+.tp__item--three {
+  flex: 0 0 30%;
+}
+
+.tp__item--four {
+  flex: 0 0 20%;
+}
+.tp__item--five {
+  flex: 0 0 10%;
+}

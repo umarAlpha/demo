@@ -1,0 +1,18 @@
+.attachment {
+  cursor: pointer;
+}
+
+.attachment > span {
+  display: inline-block;
+  color: #000;
+  font-weight: 700;
+  margin-left: 0.5rem;
+}
+
+.attachment__input {
+  display: none;
+}
+
+.attachment-icon {
+  border-radius: 0.6rem;
+}

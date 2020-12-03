@@ -1,0 +1,85 @@
+.smodal {
+    /* position: relative; */
+}
+
+.amodal-body {
+    position: relative;
+    padding: 0rem 1rem;
+    z-index: 1;
+}
+
+.modal-content {
+    border: none !important;
+    overflow: hidden;
+    border-radius: 15px !important;
+    box-shadow: -60px 50px 99px rgba(0, 0, 0, 0.16) !important;
+}
+
+.amodal-body::before {
+    content: '';
+    position: absolute;
+    top: 1rem;
+    left: 40%;
+    height: 8rem;
+    width: 8rem;
+    background-image: url('../../../assets/images/modalpic.png');
+    background-size: cover;
+    transform: rotate(-20deg);
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.amodal-header {
+    padding: 0 0.4rem !important;
+    border-bottom: none !important;
+}
+
+.amodal-header>button>span {}
+
+.amodel-title {
+    width: 170px;
+    height: 55px;
+    color: #fff;
+    margin-left: 1rem;
+    font-weight: 700 !important;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+    background-color: #116eb7;
+    box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.16);
+}
+
+.acard {
+    width: 25rem;
+    height: 5rem;
+    border-radius: 15px;
+}
+
+.acard:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.acard-title {
+    font-size: 15px;
+    color: var(--secondary);
+    font-weight: none !important;
+}
+
+.acard-desc {
+    font-size: 12px;
+    color: var(--primary);
+}
+
+.amodal-btn {
+    font-size: 0.8rem !important;
+    padding: 0.3rem 1.2rem !important;
+    text-transform: uppercase;
+    border-radius: 6px !important;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.16) !important;
+}
+
+span.linked__link {
+    text-decoration: underline;
+    color: var(--primary);
+    cursor: pointer;
+    font-weight: bolder;
+}

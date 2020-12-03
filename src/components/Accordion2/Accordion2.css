@@ -1,0 +1,36 @@
+.accordion2 {
+  height: inherit;
+  cursor: pointer;
+}
+
+.accordion2__item {
+  display: flex;
+  /* align-items: start; */
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.accordion2__title {
+  font-size: 1.2rem;
+  flex: 1;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--secondary);
+  text-transform: capitalize;
+}
+
+.accordion2__description {
+  font-size: 0.9rem;
+  color: #000;
+  text-align: justify;
+  display: inline-block;
+  /* width: 450px; */
+  /* line-height: 1.8; */
+  /* white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis; */
+}
+
+.color-secondary {
+  color: var(--secondary) !important;
+}

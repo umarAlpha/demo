@@ -1,0 +1,173 @@
+.ticket {
+  list-style: none;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  color: var(--text-color);
+  /* padding: 0.5rem 0.2rem 0.5rem 0.2rem; */
+  text-transform: capitalize;
+  font-size: 0.9375rem;
+  cursor: pointer;
+  /* margin-bottom: 6px; */
+}
+
+.ticket-ci {
+  list-style: none;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
+  /* padding: 0.5rem 0.2rem 0.5rem 0.2rem; */
+  text-transform: capitalize;
+  font-size: 0.9375rem;
+  cursor: pointer;
+  /* margin-bottom: 6px; */
+}
+
+.ticket__item {
+  /* flex: 0 1 20%; */
+  font-size: 0.9375rem;
+}
+
+.ticket__item--id {
+  flex: 0 1 10%;
+}
+
+.ticket__item--id2 {
+  flex: 0 1 15%;
+}
+
+.ticket__item--details {
+  flex: 0 1 30%;
+}
+
+.ticket__item--status {
+  flex: 0 1 10%;
+
+}
+
+.ticket__item--name {
+  flex: 0 1 30%;
+  text-align: center;
+}
+
+.ticket__item--name2 {
+  flex: 0 1 15%;
+  text-align: center;
+}
+
+.ticket__item--type {
+  flex: 0 1 15%;
+  text-align: center;
+}
+
+.ticket__item--date {
+  flex: 0 1 20%;
+  text-align: center;
+}
+
+.ticket__item--user {
+  flex: 0 1 20%;
+  text-align: center;
+}
+
+.ticket__item--citype {
+  font-weight: bold;
+  flex: 0 1 25%;
+}
+
+.ticket__item--assettype {
+  flex: 0 1 20%;
+}
+
+.ticket__item--date {
+  flex: 0 1 20%;
+  text-align: center;
+}
+
+.ticket__item--assetuser {
+  flex: 0 1 20%;
+}
+
+.ticket__item--location {
+  flex: 1%;
+}
+
+.ticket__button {
+  color: #fff;
+  padding: 0.5rem 0.8rem;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 0.8rem;
+}
+
+.waiting-color {
+  background-color: var(--primary);
+}
+
+.bg-assigned {
+  background-color: var(--assigned);
+}
+
+.new-color {
+  background-color: var(--new);
+}
+
+.close-color {
+  background-color: var(--close-color);
+}
+
+.in-progress {
+  background-color: var(--progress-color);
+}
+
+.assigned-color {
+  background-color: var(--assigned);
+}
+
+.resolved-color {
+  background-color: var(--resloved);
+}
+
+/* 
+.ticket__button:hover,
+.ticket__button:active {
+  color: #126eb7;
+  background-color: #fff;
+} */
+
+.ticket__item--one {
+  display: block;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.ticket__item--two {
+  font-weight: 300;
+  font-size: 0.8125rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.font-assigned{}
+
+@media screen and (max-width: 1366px) {
+  .font-assigned{
+    font-size: 0.8rem;
+  }
+
+  .ticket__button {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ticket__item {
+    font-size: 0.7rem;
+  }
+
+  .ticket__button {
+    font-size: 0.7rem;
+  }
+}

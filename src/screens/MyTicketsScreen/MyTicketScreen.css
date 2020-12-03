@@ -1,0 +1,24 @@
+.ticket-container {
+  animation-name: animationwidth;
+  animation-duration: 0.4s;
+  height: 100%;
+}
+
+.card-padding {
+  height: 100%;
+  padding: 0.9rem 1rem 0rem 1rem !important;
+}
+
+.h-45 {
+  height: 49vh;
+}
+
+@keyframes animationwidth {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+

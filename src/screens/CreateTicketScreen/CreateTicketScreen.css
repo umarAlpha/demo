@@ -1,0 +1,23 @@
+.formscreen {
+  padding: 1.8rem 1.4rem;
+  background-color: rgb(231, 231, 231);
+}
+
+.form-style {
+  padding: 0 2rem;
+  flex: 0 0 50%;
+}
+
+.form__input {
+  padding: 1.5rem 1rem !important;
+  border-radius: 0.7rem !important;
+  background-color: var(--white) !important;
+  font-weight: 500 !important;
+  color: var(--primary) !important;
+}
+
+.form__input:focus,
+.form__input:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
