@@ -1,7 +1,7 @@
 {
   "name": "sigmago",
   "version": "0.1.0",
-  "homepage": "",
+  "homepage": "https://black-ocean-02399ec10.azurestaticapps.net",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.0",
